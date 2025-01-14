@@ -1,0 +1,191 @@
+
+@font-face {
+    font-family: 'konstant_groteskbook';
+    src: url('konstantgrotesk-book-webfont.woff2') format('woff2'),
+         url('konstantgrotesk-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#slide {
+  vertical-align: middle;
+  text-align: center;
+}
+#slides {
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+body {
+background-color: #C7C7D4;
+}
+
+.brmed {
+  display:block;
+  margin-bottom: 3em;
+}
+
+#menu {
+  text-align: center;
+  margin: 20px;
+  position: sticky;
+  width: auto;
+  overflow: hidden;
+  top: 30em;
+}
+
+#menu a {
+  font-weight: bold;
+  font-family:konstant_groteskbook, sans-serif;
+  font-size: 20px;
+  color: #000000;
+}
+
+#menu li {
+    display: inline;
+    padding: 5px 20px 5px 20px;
+    border-style: solid;
+    border-color: #727297;
+    background-color: rgb(199, 199, 212, 1);
+}
+
+#main{
+    width: 75%;
+    padding: 10px;
+    border-style: solid;
+    border-color: #8D1919;
+    margin:auto;
+}
+
+#img {
+  background-image: url("backgroundimg2.jpg");
+  min-height: 200px;
+  background-position: center;
+  background-repeat: no-no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  text-indent: 0em;
+}
+
+#title{
+font-family: konstant_groteskbook;
+top: 30px;
+font-weight: bold;
+font-size: 2.5em;
+display:inline;
+background-color: rgb(199, 199, 212, 1);
+border-style: solid;
+border-color: #727297;
+padding: 3px;
+overflow: hidden;
+position: relative;
+}
+
+#image {
+  padding: 40px ;
+  background-color: #727297;
+}
+
+#text {
+  padding: 40px ;
+  background-color: #727297;
+  font-family: konstant_groteskbook;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+#footer{
+    margin: auto;
+    text-align: center;
+    font-family: konstant_groteskbook;
+    font-size: small;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+#image {
+  text-align: center ;
+  padding: 40px;
+}
+
+a:hover {
+  background-color: #727297;
+}
+
+@media screen and (max-width: 600px) {
+    #menu{
+        text-align: left ;
+    }
+    #menu li {
+        padding: 2px;
+        display: list-item ;
+    }
+    #main {
+      width: 100% ;
+      border: 0 ;
+    }
+    h1 {
+      text-align: center ;
+    }
+    body {
+      font-family: sans-serif ;
+    }
+    #image {
+      width: 0% ;
+    }
+}
+
+.contact {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: konstant_groteskbook;
+}
+
+.fa {
+   padding: 20px;
+   font-size: 30px;
+   width: 50px;
+   text-align: center;
+   text-decoration: none;
+   margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.2;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: #C7C7D4;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: #C7C7D4;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: #C7C7D4;
+}
+.portrait {
+  float:left;
+  padding: 15px ;
+  background-color: #727297;
+  width: 25%;
+  max-width: 1px;
+}
+
+.about_text {
+  float: none;
+  font-family: konstant_groteskbook;
+  padding: 15px ;
+  background-color: #727297;
+  font-family: konstant_groteskbook;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 25%;
+}
